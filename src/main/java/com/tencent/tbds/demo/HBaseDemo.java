@@ -13,7 +13,6 @@ import java.util.Map;
 
 public class HBaseDemo {
     public static void main(String[] args) throws IOException {
-        // TODO Auto-generated method stub
         if(args.length != 6) {
             System.err.println("Usage: hadoop jar <thisjarfile> com.hbasetest.hbaseopenmaven.Testhtable <zkhost> <zkznode> <hbasetablename> <rownumber> <secureid> <securekey>");
             System.exit(4);
